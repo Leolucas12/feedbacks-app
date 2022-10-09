@@ -1,8 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-  @import url(//db.onlinewebfonts.com/c/c627f5f4597153a6103abfda8417df0a?family=Apercu+Arabic+Pro);
-
   * {
     margin: 0;
     padding: 0;
