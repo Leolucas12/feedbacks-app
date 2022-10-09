@@ -22,6 +22,10 @@ export const SuccessMessage = styled.div`
   justify-content: center;
   margin-left: 10%;
   width: 35%;
+
+  button {
+    width: 50%;
+  }
   
   @media (max-width: 1200px) {
     background-color: #FFFFFF;
@@ -29,6 +33,10 @@ export const SuccessMessage = styled.div`
     margin-left: 0;
     padding: 10%;
     align-items: center;
+
+    button {
+      width: 100%;
+    }
   }
 `;
 
@@ -46,6 +54,10 @@ export const FeedbackForm = styled.form`
   justify-content: center;
   margin-left: 10%;
   width: 35%;
+
+  button {
+    width: 50%;
+  }
   
   @media (max-width: 1200px) {
     background-color: #FFFFFF;
@@ -53,6 +65,10 @@ export const FeedbackForm = styled.form`
     margin-left: 0;
     padding: 10%;
     align-items: center;
+
+    button {
+      width: 100%;
+    }
   }
 `;
 
