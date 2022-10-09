@@ -1,7 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-  @import url(//db.onlinewebfonts.com/c/c627f5f4597153a6103abfda8417df0a?family=Apercu+Arabic+Pro);
+  @font-face {
+    font-family: 'Apercu Arabic Pro';
+    src: local('Apercu Arabic Pro Bold'), local('Apercu-Arabic-Pro-Bold'),
+        url('./fonts/ApercuArabicProBold.woff2') format('woff2'),
+        url('./fonts/ApercuArabicProBold.woff') format('woff'),
+        url('./fonts/ApercuArabicProBold.ttf') format('truetype');
+  }
 
   * {
     margin: 0;
