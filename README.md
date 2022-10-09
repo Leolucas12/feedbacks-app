@@ -1,5 +1,10 @@
 # Frontend of the Feedbacks App - Zenbit Tech
 
+## Demo
+
+  ![demo](demo.gif "Feature demo")<br>
+  ![responsive](responsive.gif "Responsive demo")
+
 ## Technologies used:
 
  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="drawing" width="15"/> React
