@@ -1,4 +1,13 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const spin = keyframes`
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+`;
 
 export const CustomButton = styled.button`
   background-color: #FAD34F;
@@ -12,4 +21,11 @@ export const CustomButton = styled.button`
   width: 100%;
   margin-top: 26px;
   border: 0;
+
+  svg {
+    animation-name: ${spin};
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+  }
 `;

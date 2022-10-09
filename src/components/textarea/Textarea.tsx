@@ -6,8 +6,8 @@ interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {
   placeholer: string;
 }
 
-export function Textarea({ name, placeholer }: TextareaProps) {
+export function Textarea({ name, placeholer, ...rest }: TextareaProps) {
   return (
-    <CustomTextarea name={name} placeholder={placeholer} />
+    <CustomTextarea {...rest} name={name} placeholder={placeholer} />
   )
 }

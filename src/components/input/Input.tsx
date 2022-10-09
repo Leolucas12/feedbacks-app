@@ -7,8 +7,8 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   placeholer: string;
 }
 
-export function Input({ name, type, placeholer }: InputProps) {
+export function Input({ name, type, placeholer, ...rest }: InputProps) {
   return (
-    <CustomInput name={name} type={type} placeholder={placeholer} />
+    <CustomInput {...rest} name={name} type={type} placeholder={placeholer} />
   )
 }

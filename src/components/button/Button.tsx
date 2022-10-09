@@ -1,12 +1,8 @@
 import { ButtonHTMLAttributes } from "react";
 import { CustomButton } from "./styles";
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  text: string;
-}
-
-export function Button({ text }: ButtonProps) {
+export function Button({ children, ...rest }: ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
-    <CustomButton>{text}</CustomButton>
+    <CustomButton {...rest}>{children}</CustomButton>
   )
 }

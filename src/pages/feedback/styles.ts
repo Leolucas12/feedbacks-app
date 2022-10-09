@@ -16,6 +16,22 @@ export const FormSection = styled.section`
   background-size: cover;
 `;
 
+export const SuccessMessage = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+  width: 35%;
+  
+  @media (max-width: 1200px) {
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-left: 0;
+    padding: 10%;
+    align-items: center;
+  }
+`;
+
 export const FormTitle = styled.h1`
   font-style: normal;
   font-weight: 400;
